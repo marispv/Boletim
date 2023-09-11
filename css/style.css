@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600&family=Montserrat:wght@100;300&family=Quicksand:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #0CC0DF;
+    padding: 7px;
+    font-family: 'DM Sans', sans-serif;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.h2_principal {
+    color: #FFDE59;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+body, html {
+    height: 90%;
+    margin: 0px;
+}
+
+.geral {
+    background-image: url('../imagens/fundo.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: scroll;
+}
+
+.numeros_notificados{
+    background-color: #FF914C;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'DM Sans', sans-serif;
+    width: 13%;
+    margin-right: 2%;
+    padding: 40px 10px;
+    font-size: 15px;
+    border-radius: 28px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.numeros_descartados{
+    background-color: #029BDE;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'DM Sans', sans-serif;
+    width: 13%;
+    margin-right: 2%;
+    padding: 40px 10px;
+    font-size: 15px;
+    border-radius: 28px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.numeros_confirmados{
+    background-color: #FF1717;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'DM Sans', sans-serif;
+    width: 13%;
+    margin-right: 2%;
+    padding: 40px 10px;
+    font-size: 15px;
+    border-radius: 28px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.numeros_obitos{
+    background-color: #241B16;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'DM Sans', sans-serif;
+    width: 13%;
+    margin-right: 2%;
+    padding: 40px 10px;
+    font-size: 15px;
+    border-radius: 28px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.numeros_ativos{
+    background-color: #8C52FF;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'DM Sans', sans-serif;
+    width: 13%;
+    margin-right: 2%;
+    padding: 40px 10px;
+    font-size: 15px;
+    border-radius: 28px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.numeros_recuperados{
+    background-color: #7ED958;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'DM Sans', sans-serif;
+    width: 13%;
+    margin-right: 2%;
+    padding: 40px 10px;
+    font-size: 15px;
+    border-radius: 28px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.conteudo{
+    margin-top: 60px;
+    display:flex;
+    justify-content: center;
+}
+
+.conteudo2{
+    margin-top: 25px;
+    display:flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.mensagem_apoio{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.frase{
+    margin-top: 43px;
+    font-family: 'DM Sans', sans-serif;
+    color: #029BDE;
+    font-size: 17px;
+}
+
+.rodape{
+    margin-top: 70px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.mensagem_apoio:hover, .numeros_ativos:hover, .numeros_confirmados:hover, .numeros_descartados:hover, .numeros_notificados:hover, .numeros_obitos:hover, .numeros_recuperados:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    cursor:auto;
+}
+
